@@ -6,27 +6,25 @@
  * Your program should read the customer's age first, then the weight of their luggage, then output the price they have to pay.
  * 
  */
-int main()
+int main(void)
 {
     int age;
     int weight;
     int price;
-
     scanf("%d %d", &age, &weight);
-
     if (age == 60)
-        price = 0;
-    else if (age < 10)
-        price = 5;
-    else
+    price = 0;
+    else 
+    price = 30;
+    
+    if (age < 10)
+    price = 5;
+    else 
+    price = 30;
+    
+    if (weight > 20)
     {
-        price = 30;
-
-        if (weight > 20)
-            price += 10;
+        price = price + 10;
+        printf("%d", price);
     }
-
-    printf("%d", price);
-
-    return (0);
 }
