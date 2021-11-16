@@ -26,7 +26,7 @@ int main()
         printf("Falarion");
     else if (heightOfTree >=12 && countOfLeaflets <= 7)
         printf("Dorthonion");
-    else
+    elses
         printf("Uncertain");
 
     return (0);

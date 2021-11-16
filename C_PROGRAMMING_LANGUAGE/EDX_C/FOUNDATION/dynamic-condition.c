@@ -3,7 +3,7 @@
 int main(void)
 {
     // +-*/% : arithmetic operators
-    // <> <= >= != == : cpmparison operators
+    // <> <= >= != == : comparison operators
     int a = 5;
     int b = 2;
     int result;
